@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <style>
+        body {
+            font-size: 5rem;
+        }
+
+        #test::before {
+            content: "s";
+            color: red;
+            font-size: 30px;
+        }
+
+        #test::after {
+            content: "e";
+        }
+
+        .icon-user-circle-o:hover {
+            color: seagreen;
+            transition: all 1s;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="test">A</div>
+    <i class="icon-user-circle-o animate-spin"></i>
+</body>
+
+</html>
