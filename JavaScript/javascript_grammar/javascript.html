@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // function Person(name) {
+        //     this.name = name;
+        // }
+        // Person.prototype.name = null;
+        // Person.prototype.introduce = function () {
+        //     return 'My name is ' + this.name;
+        // }
+
+        // function Programmer(name) {
+        //     this.name = name;
+        // }
+        // Programmer.prototype = new Person();
+        // Programmer.prototype.coding = function () {
+        //     return "hello world";
+        // }
+
+        // function Desiner(name) {
+        //     this.name = name;
+        // }
+        // Desiner.prototype = new Person();
+        // Desiner.prototype.design = function () {
+        //     return "beautiful!";
+        // }
+
+        // var p1 = new Programmer('hyunjuuun');
+        // document.write(p1.introduce() + "<br>");
+        // document.write(p1.coding() + "<br>");
+
+        // var p2 = new Desiner('Jun');
+        // document.write(p2.introduce() + "<br>");
+        // document.write(p1.design() + "<br>");
+
+        // var arr = new Array('seoul', 'new york', 'ladarkh', 'pusan', 'Tsukuba');
+
+        // function getRandomValueFromArray(arr) {
+        //     var index = Math.floor(arr.length * Math.random());
+        //     return arr[index];
+        // }
+
+        // console.log(getRandomValueFromArray(arr));
+
+        // Array.prototype.random = function () {
+        //     var index = Math.floor(this.length * Math.random());
+        //     return this[index];
+        // }
+        // var arr = new Array('seoul', 'new york', 'ladarkh', 'pusan', 'Tsukuba');
+        // console.log(arr.random());
+
+        // var str = 'coding';
+        // console.log(str.length);
+        // console.log(str.charAt(0));
+
+        // var str = 'coding';
+        // str.prop = 'everybody';
+        // console.log(str.prop); // undefined
+
+        // var a = 1;
+        // var b = a;
+        // b = 2;
+        // console.log(a); //1
+
+        // var a = { 'id': 1 };
+        // var b = a;
+        // b.id = 2;
+        // console.log(a.id); //2
+
+        var a = { 'id': 1 };
+        var b = a;
+        b = { 'id': 2 };
+        console.log(a.id); //1
+
+
+
+    </script>
+
+</body>
+
+</html>
