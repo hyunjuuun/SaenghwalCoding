@@ -11,17 +11,11 @@
 <body>
     <ul>
         <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
+        <li class="active">CSS</li>
+        <li class="active">JavaScript</li>
     </ul>
-    <ol>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ol>
     <script>
-        var ul = document.getElementsByTagName('ul')[0];
-        var lis = ul.getElementsByTagName('li');
+        var lis = document.getElementsByClassName('active');
         for (var i = 0; i < lis.length; i++) {
             lis[i].style.color = 'red';
         }
